@@ -1,9 +1,8 @@
 Creative Brief
 Date: November 21, 2023
 
-Re: Term Project – Creative Brief
-
-Main Theme
+Re: Term Project – Creative Brief;
+Main Theme:
 i unanimously agreed upon featuring Disney movies as the primary theme. The website will be divided into three sub-themes:
 
 Marvel movies
