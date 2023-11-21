@@ -1,8 +1,6 @@
 # UlrichProjects
-MULT1083
+
 Creative Brief
-To:	 Monk, Steve
-Group 18:	 De A. Silva, Leonardo; M. Zeutsa, Yann Ulrich;  De C. Alves, Carlos Eduardo
 Date:	November 21, 2023
 
 Re:	Term Project – Creative Brief
@@ -29,14 +27,9 @@ For the colors, the team will work with the pallets according to the sub-theme:
 •	Star wars – Yellow, white and black;
 
 Graphics:
-The website will have images from parts of the movies and some “Easter eggs”. E.g.:
+The website will have images from parts of the movies 
 
 
- 
-
- 
-
- 
 
 Mock-ups:
 •	Home Page:
