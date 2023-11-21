@@ -2,6 +2,15 @@ Creative Brief
 Date: November 21, 2023
 
 Re: Term Project – Creative Brief;
+
+
+
+Project Overview
+This project is a movie website primarily focused on Disney movies. It will be developed using programming languages such as HTML and CSS, complemented by additional frameworks for enhanced functionality and design.
+
+
+
+
 Main Theme:
 i unanimously agreed upon featuring Disney movies as the primary theme. The website will be divided into three sub-themes:
 
