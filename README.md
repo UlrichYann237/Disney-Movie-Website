@@ -32,65 +32,8 @@ The website will have images from parts of the movies
 
 
 Mock-ups:
-•	Home Page:
+![Alt text](wireframe1/example.jpg)
+![Alt text](wireframe2/example.jpg)
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-•	One category page:
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-•	One item page:
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-•	Feedback page:
 
  
