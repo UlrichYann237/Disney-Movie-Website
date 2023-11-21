@@ -29,11 +29,45 @@ For the colors, the team will work with the pallets according to the sub-theme:
 Graphics:
 The website will have images from parts of the movies 
 
+- I defined the list of the movies that will be shown on the website. The list is as shown in the following:
+1 - Disney Classics:
+•	Fantasia (1940);
+•	Pinocchio (1940);
+•	Bambi (1942);
+•	Alice in The Wonderland (1951);
+•	Sleeping Beauty(1959);
+•	The Sword in the stone(1963);
+•	Aladdin (1992);
+•	The Lion King (1994);
+2 - MCU – Marvel Cinematic Universe (sagas from each):
+•	Iron Man ;
+•	Black Panther;
+•	Avengers;
+•	Spider Man;
+•	Guardians of the Galaxy;
+•	Doctor Strange;
+•	Captain Marvel;
+•	The Incredible Hulk;
+•	Thor;
+
+Star War Movies:
+•	EP. I – The Phanton Menace (1999);
+•	EP. II – Attack of the Clones (2002);
+•	EP. III – Revenge of the Sith (2005);
+•	EP. IV – A New Hope (1977);
+•	EP. V – The Empire Strikes Back (1980);
+•	EP. VI – Return of the Jedi (1983);
+•	EP. VII – The Force Awakens (2015);
+•	EP. VIII – The Last Jedi (2017);
+•	EP IX – The Rise of Skywalker (2019);
+•	Rogue One (2016);
+
 
 
 Mock-ups:
 ![Alt text](images/wireframe1.png)
 ![Alt text](images/wireframe2.png)
+![Alt text](images/main.jpg)
 
 
  
