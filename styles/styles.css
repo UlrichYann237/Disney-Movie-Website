@@ -1,0 +1,617 @@
+body{
+    margin: 0px;
+    border: 0px;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    color: #03137B;
+}
+
+h2{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-size: 5em;
+    font-weight: normal;
+}
+
+h3{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-size: 2em;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+em{
+   font-weight: normal;
+   font-style: normal;
+}
+
+/* hyperlink */
+a{
+    color: #03137B;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ a:hover{
+    color: #2D86DD;
+    transition: 0.5s;
+}
+
+/* header */
+#header{
+    width: 99.5%;
+    height: 70px;
+    border: solid 1px #E8E8E9;
+    text-align: center;
+    box-shadow: 0 5px 25px 0 #E8E8E9;
+}
+
+#header > div:first-child{
+    width: 90%;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: left;
+}
+
+#header > div:first-child div:first-child{
+    width: auto;
+    margin-left: 47px;
+    font-size: 2em;
+}
+
+#header > div:first-child div:last-child{
+    width: auto;
+    font-variant: small-caps;
+    font-size: 1em;
+}
+
+/* menu */
+#header > div:last-child{
+    /* width: 366px; */
+    width: 488px;
+    clear: both;
+    position: relative;
+    display: inline-block;
+    background-color: blue;
+}
+
+#menu{
+    list-style-type: none;
+    list-style-position: inside;
+    margin-top: -60px;
+    padding: 0px;
+    position: absolute;
+}
+
+/* menu level 1 - main section */
+#menu > li{
+    width: 100px;
+    border: solid 1px #FFFFFF;
+    text-align: center;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+
+#menu > li:hover{
+    border: solid 1px #E8E8E9;
+    transition: 0.5s;
+    background-color: #FFFFFF;
+    box-shadow: 0 0px 15px 0 #E8E8E9;
+    transition: 0.5s;
+}
+
+/* menu level 2 - category */
+#menu > li:nth-child(2) > ul > li{
+    width: 90px;
+    display: none; /* display */
+    font-weight: lighter;
+    text-align: center;
+    list-style-type: none;
+    margin: 10px 0px 0px -35px;
+    border-radius: 5px;
+    font-size: 0.95em;
+}
+
+#menu > li:nth-child(2):hover > ul > li{
+    display: block; /* display */
+}
+
+/* menu level 3 - category items */
+#menu > li:nth-child(2) > ul > li > ul{
+    width: 150px;
+    font-size: 0.8em;
+    position: absolute;
+    text-align: center;
+    list-style-type: none;
+    margin: -25px 0px 0px 90px;
+    padding: 10px 0px 10px 0px;
+    border: solid 1px #E8E8E9;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: none; /* display */
+    transition: 0.5s;
+}
+
+#menu > li:nth-child(2) > ul > li > ul a{
+    color: #03137B;
+}
+
+#menu > li:nth-child(2) > ul > li > ul a:hover{
+    color: #2D86DD;
+}
+
+#menu > li:nth-child(2) > ul > li:hover ul{
+    display: block; /* display */
+    box-shadow: 0 0px 15px 0 #E8E8E9;
+    transition: 0.5s;
+}
+
+#menu > li:nth-child(2) > ul > li > ul > li{
+    padding-bottom: 10px;
+}
+
+#menu > li:nth-child(2) > ul > li > ul > li:last-child{
+    padding-bottom: 0px;
+}
+
+/* main content */
+#main{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* text path */
+#breadcrumbs{
+    width: 90%;
+    display: inline-block;
+    text-align: left;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+/* index, categories and sub-categories */
+.content{
+    width: 90%;
+    display: inline-block;
+    margin-bottom: 30px;
+    background-color: #F1F2F3;
+}
+
+/* index - marvel container */
+.feature:nth-child(1){
+    background-color: #DC2E27;
+    background-image: url("../images/marvel.png");
+    background-size: 560px;
+    background-repeat: no-repeat;
+    background-position: top -15px right;
+    transition: 0.5s;
+    color: #FFFFFF;
+}
+
+/* index - star wars container */
+.feature:nth-child(2){
+    background-color: #FDC863;
+    background-image: url("../images/star-wars.png");
+    background-size: 560px;
+    background-repeat: no-repeat;
+    background-position: top -15px right;
+    transition: 0.5s;
+    color: #000000;
+}
+
+/* index - disney's classics container */
+.feature:nth-child(3){
+    background-color: #177BDB;
+    background-image: url("../images/disney.png");
+    background-size: 560px;
+    background-repeat: no-repeat;
+    background-position: top -15px right;
+    transition: 0.5s;
+    color: #FFFFFF;
+}
+
+/* index - container height */
+.feature > div:nth-child(1){
+    height: 400px;
+    text-align: left;
+}
+
+/* index - mouse container hover */
+.feature:hover{
+    background-size: 570px;
+    transition: 0.5s;
+}
+
+/* index - content title */
+.feature > div:nth-child(1) > div:nth-child(1){
+    width: auto;
+    padding: 70px 0px 0px 60px;
+}
+
+/* index - content button "explore all adventures" */
+.feature > div:nth-child(1) > div:nth-child(2){
+    width: 160px;
+    margin: 50px 0px 0px 60px;
+    padding: 25px;
+    background-color: #000000;
+    border-radius: 40px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+/* index - content button link */
+.feature > div:nth-child(1) > div:nth-child(2):hover{
+    background-color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.feature > div:nth-child(1) > div:nth-child(2) a{
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.feature > div:nth-child(1) > div:nth-child(2):hover a{
+    color: #000000;
+    transition: 0.5s;
+}
+
+
+/* index - cards container */
+.feature > div:nth-child(2){
+    background-color: #F1F2F3;
+    padding: 0px 0px 20px 0px;
+}
+
+/* index - trending title */
+.feature > div:nth-child(2) > div:nth-child(1) h3{
+    color: #03137B;
+    font-size: 1.5em;
+    padding: 40px 0px 10px 0px;
+}
+
+/* index and categories - feature card */
+.card{
+    width: 350px;
+    background-color: #FFFFFF;
+    color: #03137B;
+    border-radius: 10px;
+    margin: 25px 10px 25px 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.card > div:nth-child(1){
+    width: 350px;
+    height: 195px;
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.card img{
+    width: 350px;
+    transition: 0.5s;
+}
+
+.card img:hover{
+    transform: scale(1.05); /* Chrome */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -moz-transform:scale(1.05); /* Firefox */
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -o-transform:scale(1.05); /* Opera */
+    transition: 0.5s;
+}
+
+.card div:nth-child(2){
+    width: auto;
+    padding: 30px 0px 30px 0px;
+    font-size: 1.2em;
+}
+
+/* categories title */
+.categories > div:nth-child(1){
+    background-color: #03137B;
+    text-align: left;
+    padding-left: 25px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 2em;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+
+.categories > div:nth-child(1) em{
+    font-weight: bolder;
+}
+
+/* sub-categories title */
+.sub-categories > div:nth-child(1){
+    background-color: #03137B;
+    text-align: left;
+    padding-left: 25px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+/* sub-categories container picture */
+.sub-categories > div:nth-child(2){
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #E8E9E9;
+    padding: 55px 0px 50px 0px;
+    font-size: 2em;
+}
+
+/* sub-categories picture */
+.sub-categories > div:nth-child(2) img{
+    border-radius: 5px;
+    width: 700px;  
+}
+
+/* sub-categories content container */
+.sub-categories > div:nth-child(2) ~ div{
+    padding: 50px 60px 50px 60px;
+    text-align: left;
+    line-height: 1.8em;
+    font-size: 1.15em;
+}
+
+/* sub-categories content container h3 */
+.sub-categories > div:nth-child(3) h3{
+    font-size: 1.5em;
+    color: #03137B;
+    border-left: solid 7px #03137B;
+    margin: 50px 0px 20px 0px;
+    text-align: left;
+    padding: 5px 0px 5px 10px;
+}
+
+/* sub-categories content container embedded trailer */
+.sub-categories > div:nth-child(3) div:nth-last-child(2) > div:last-child{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/* sub-categories content container embedded trailer size */
+.sub-categories > div:nth-child(3) iframe{
+    width: 700px;
+    height: 394px;
+}
+
+/* sub-categories content container source */
+.sub-categories > div:nth-child(3) > div:last-child{
+    font-size: 0.7em;
+    text-align: left;
+    line-height: normal;
+}
+
+
+
+/* sub-category background - marvel */
+.marvel > div:nth-child(1){
+    background-color: #DC2E27;
+}
+
+/* sub-category h3 left border - marvel */
+.marvel > div:nth-child(3) > div > h3{
+    border-left: solid 7px #DC2E27;
+}
+
+/* sub-category background - star-wars */
+.star-wars > div:nth-child(1){
+    background-color: #FDC863;
+    color: #000000;
+}
+
+/* sub-category h3 left border - star wars */
+.star-wars > div:nth-child(3) > div > h3{
+    border-left: solid 7px #FDC863;
+}
+
+/* sub-category background - disney */
+.disney > div:nth-child(1){
+    background-color: #177BDB;
+}
+
+/* sub-category h3 left border - disney */
+.disney > div:nth-child(3) > div > h3{
+    border-left: solid 7px #177BDB;
+}
+
+
+
+/* feedback page */
+#feedback{
+    padding-top: 20px;
+}
+
+/* feedback - what is your opinion of this page container */
+#feedback > div:nth-child(1){
+    text-align: center;
+    width: 100%;
+    overflow: auto;
+}
+
+/* feedback - smiles div container main */
+#feedback > div:nth-child(1) > div > div:nth-child(1){
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    overflow: auto;
+}
+
+/* feedback - smiles div container content */
+#feedback > div:nth-child(1) > div > div:nth-child(1) > div{
+    border: none;
+    display: inline-block;
+    width: 70px;
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+}
+
+/* feedback - input range */
+.inputRange{
+    display: inline-block;
+    width: 335px;
+    height: 15px;
+    outline: none;
+    opacity: 0.7;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+
+.inputRange:hover{
+    opacity: 1;
+}
+
+.inputRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #03137B;
+    cursor: pointer;
+  }
+  
+  .inputRange::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #03137B;
+    cursor: pointer;
+  }
+
+/* feedback - please select your feedback category below container */
+#feedback > div:nth-child(2){
+    text-align: center;
+}
+
+/* feedbck - input radio */
+#toggle > input{
+    visibility: hidden;
+}
+
+/* feedbck - input radio label */
+#toggle > label{
+    width: 250px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #FFFFFF;
+    border: solid 1px #FFFFFF;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 1em;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+}
+
+.feedback-label:hover{
+    cursor: pointer;
+}
+
+#toggle > input:checked + .feedback-label{
+    border: solid 1px #03137B;
+}
+
+/* feedback - please leave your feedback below */
+#feedback > div:nth-child(3){
+    text-align: center;
+}
+
+/* feedbck - input textarea */
+.feedback-textarea{
+    width: 600px;
+    height: 100px;
+    line-height: 20px;
+    border: solid 1px #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    resize: none;
+    font-family: sans-serif;
+    color: #03137B;
+    font-size: 1em;
+}
+
+/* feedback - submit button */
+#feedback > div:nth-child(4){
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+}
+
+#feedback > div:nth-child(4) > input{
+    padding: 15px;
+    font-size: 1em;
+    border: solid 1px #d3d3d3;
+    border-radius: 15x;
+    color: #03137B;
+    font-weight: bold;
+}
+
+#feedback > div:nth-child(4) > input:hover{
+    border: solid 1px #03137B;
+}
+
+
+/* footer */
+#footer{
+    width: 100%;
+    /* height: 50px; */
+    padding: 40px 0px 40px 0px;
+    background-color: #F1F2F3;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+}
+
+/* footer group number container  */
+#footer > div:nth-child(1){
+    width: 20%;
+    text-align: left;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+/* footer course name and disclaimer container */
+#footer > div:nth-child(2){
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+/* footer course name style */
+#footer > div:nth-child(2) strong{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* footer disclaimer style */
+#footer > div:nth-child(2) span{
+    font-size: 0.7em;
+}
+
+/* footer due date container  */
+#footer > div:nth-child(3){
+    width: 20%;
+    text-align: right;
+    padding-right: 15px;
+    display: inline-block;
+    
+}
