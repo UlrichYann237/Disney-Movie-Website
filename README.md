@@ -32,8 +32,8 @@ The website will have images from parts of the movies
 
 
 Mock-ups:
-![Alt text](wireframe1/example.jpg)
-![Alt text](wireframe2/example.jpg)
+![Alt text](images/wireframe1.png)
+![Alt text](images/wireframe2.png)
 
 
  
