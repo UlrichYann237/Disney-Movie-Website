@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>DCU - Disney Cinematic Universe</title>
+        <link href="styles/styles.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+        <script> 
+            $(function(){
+                $("#header-include").load("header.html"); 
+                $("#footer-include").load("footer.html"); 
+            });
+        </script>
+    </head>
+
+    <body>
+        <form>
+            <div id="header-include"></div>
+
+            <div id="main">
+
+                <div id="breadcrumbs">
+                    Home / Feedback
+                </div>
+                
+                <div class="content sub-categories">
+                    
+                    <div>
+                        Feedback
+                    </div>
+
+                    <div>
+                        How can we make this webpage better?
+                    </div>
+
+                    
+                    <div id="feedback">
+                        <div>
+                            <h3>What is your opinion of this page?</h3>
+                            <div>
+                                <div id="smiles">
+                                    <div>&#128532;</div>
+                                    <div>&#128577;</div>
+                                    <div>&#128528;</div>
+                                    <div>&#128578;</div>
+                                    <div>&#128512;</div>
+                                </div>
+                                <div>
+                                    <input type="range" min="1" max="5" class="inputRange">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3>Please select your feedback category below</h3>
+                            <div id="toggle">
+                                <input type="radio" name="feedbackCategory" id="feedback-category-suggestion">
+                                <label for="feedback-category-suggestion" class="feedback-label">Suggestion</label>
+
+                                <input type="radio" name="feedbackCategory" id="feedback-category-not-right">
+                                <label for="feedback-category-not-right" class="feedback-label">Something is not quite right</label>
+
+                                <input type="radio" name="feedbackCategory" id="feedback-category-compliment">
+                                <label for="feedback-category-compliment" class="feedback-label">Compliment</label>
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <h3>Please leave your feedback below</h3>
+                            <textarea name="feedbackText" class="feedback-textarea" placeholder="Please leave your feedback here." maxlength="50"></textarea>
+                        </div>
+
+                        <div>
+                            <input type="submit">
+                        </div>
+
+                        <div></div>
+
+                    </div>
+
+
+            </div>
+            
+            <div id="footer-include"></div>
+        
+        </form>
+
+    </body>
+</html>
